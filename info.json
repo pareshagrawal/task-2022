@@ -1,1 +1,3004 @@
-"[\"https://api.github.com/repos/coingecko/activeadmin-globalize/commits{/sha}\", \"https://api.github.com/repos/coingecko/activeadmin_json_editor/commits{/sha}\", \"https://api.github.com/repos/coingecko/binance-chain-ruby/commits{/sha}\", \"https://api.github.com/repos/coingecko/coingecko-gsheet-addon/commits{/sha}\", \"https://api.github.com/repos/coingecko/coingecko-ruby/commits{/sha}\", \"https://api.github.com/repos/coingecko/cryptoexchange/commits{/sha}\", \"https://api.github.com/repos/coingecko/cryptoexchange-pairs/commits{/sha}\", \"https://api.github.com/repos/coingecko/cryptoformat/commits{/sha}\", \"https://api.github.com/repos/coingecko/makara/commits{/sha}\", \"https://api.github.com/repos/coingecko/moolah-ruby/commits{/sha}\", \"https://api.github.com/repos/coingecko/nftgecko/commits{/sha}\", \"https://api.github.com/repos/coingecko/rails-i18n/commits{/sha}\", \"https://api.github.com/repos/coingecko/steemprice-feed/commits{/sha}\", \"https://api.github.com/repos/coingecko/tablesort/commits{/sha}\", \"https://api.github.com/repos/coingecko/tennis_kata/commits{/sha}\", \"https://api.github.com/repos/coingecko/token_explorer/commits{/sha}\", \"https://api.github.com/repos/coingecko/twitter/commits{/sha}\", \"https://api.github.com/repos/coingecko/unobtrusive_flash/commits{/sha}\", \"https://api.github.com/repos/coingecko/XChange/commits{/sha}\"]"
+{
+    "recent_commits": [
+        {
+            "info": "Merge pull request #41 from manasCoindcx/bug/C2C-1436\n\n[C2C-1436] Update node script",
+            "date": "2022-03-31 06:51:02",
+            "author": "bharat-coindcx",
+            "username": "bharat-coindcx"
+        },
+        {
+            "info": "Update node script",
+            "date": "2022-03-31 05:16:25",
+            "author": "manasCoindcx",
+            "username": "manasCoindcx"
+        },
+        {
+            "info": "Merge pull request #40 from manasCoindcx/bug/C2C-1436\n\n[C2C-1436] Update node script",
+            "date": "2022-03-30 07:39:17",
+            "author": "bharat-coindcx",
+            "username": "bharat-coindcx"
+        },
+        {
+            "info": "Merge pull request #38 from coindcx-official/TRAD-875\n\n[LIVE] Trad 875 - Expose client order id in various responses",
+            "date": "2022-03-30 07:37:06",
+            "author": "bharat-coindcx",
+            "username": "bharat-coindcx"
+        },
+        {
+            "info": "[C2C-1436] Update node script\n\nThis pr updates the node script to listen to the connect event and then emit the event to join the private channel. \r\nEarlier on reconnection, we were not able to join the channel and thus were not able to receive the updates.",
+            "date": "2022-03-30 06:51:23",
+            "author": "manasCoindcx",
+            "username": "manasCoindcx"
+        },
+        {
+            "info": "Merge pull request #39 from coindcx-official/feature/C2C-1367-margin-fetch-order-update\n\nAdded line break",
+            "date": "2022-03-25 15:48:49",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "added documentation of exposing client order id in response",
+            "date": "2022-03-22 11:49:19",
+            "author": "Aviral Sachdeo",
+            "username": "AviralSachdeo"
+        },
+        {
+            "info": "Merge pull request #34 from coindcx-official/TRAD-873\n\n[LIVE] TRAD-873 - Documentation of querying orders using client order id",
+            "date": "2022-03-17 09:16:59",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Add documentation around order-updates via web-socket",
+            "date": "2022-03-16 08:29:30",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Update logo and improve styles around it",
+            "date": "2022-03-16 08:11:03",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "minor",
+            "date": "2022-03-16 05:27:31",
+            "author": "Aviral Sachdeo",
+            "username": "AviralSachdeo"
+        },
+        {
+            "info": "merge conflict resolve",
+            "date": "2022-03-16 05:13:04",
+            "author": "Aviral Sachdeo",
+            "username": "AviralSachdeo"
+        },
+        {
+            "info": "Merge pull request #28 from coindcx-official/library-sync\n\nLibrary sync from slate latest; minor doc improvements.",
+            "date": "2022-03-15 17:04:15",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Open links in new tab; correct meta desc",
+            "date": "2022-03-15 17:03:24",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Update url for 'sign up for developer key'",
+            "date": "2022-03-15 17:01:56",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Merge branch 'master' into library-sync",
+            "date": "2022-03-15 16:57:52",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Merge pull request #37 from coindcx-official/feature/improveDocs\n\nVarious improvements",
+            "date": "2022-03-15 16:50:35",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Correct grammar",
+            "date": "2022-03-15 16:49:50",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Improve spacing",
+            "date": "2022-03-15 16:47:26",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Correct spelling mistakes; add OkEx in ecode list; add definitions around orders' status values",
+            "date": "2022-03-15 16:45:19",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Add .vscode to .gitignore",
+            "date": "2022-03-15 16:45:04",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Merge pull request #36 from coindcx-official/feature/improveDocs\n\nImprove documentation around 'timestamp' (the mandatory request param for all authenticated requests)",
+            "date": "2022-03-15 14:34:37",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Improve explanation around 'timestamp' (the mandatory request param for all authenticated requests\n\nInclude a link as well",
+            "date": "2022-03-15 14:32:59",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Add some explanation around 'timestamp'; improve layour of common notes",
+            "date": "2022-03-15 14:26:32",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "minor",
+            "date": "2022-03-15 14:23:44",
+            "author": "Aviral Sachdeo",
+            "username": "AviralSachdeo"
+        },
+        {
+            "info": "updated examples of client_order_id",
+            "date": "2022-03-15 14:22:32",
+            "author": "Aviral Sachdeo",
+            "username": "AviralSachdeo"
+        },
+        {
+            "info": "Merge pull request #35 from coindcx-official/feature/improveDocs\n\nMake timestamps integer in all examples",
+            "date": "2022-03-15 14:21:18",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Make timestamps integer in all examples",
+            "date": "2022-03-15 14:19:55",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "documentation of querying orders using client order id",
+            "date": "2022-03-14 11:13:03",
+            "author": "Aviral Sachdeo",
+            "username": "AviralSachdeo"
+        },
+        {
+            "info": "Merge pull request #31 from coindcx-official/TRAD-863-client-order-id\n\n[LIVE] TRAD - 863 - Client Order ID documentation",
+            "date": "2022-03-10 14:13:54",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Merge pull request #30 from coindcx-official/feature/C2C-1367-margin-fetch-order-update\n\nUpdated params desc for margin fetch-orders",
+            "date": "2022-03-10 08:54:00",
+            "author": "akashCoindcx",
+            "username": "akashCoindcx"
+        },
+        {
+            "info": "Merge pull request #33 from coindcx-official/feature/C2C-1368-account-socket-doc-update\n\nUpdate docs to connect to socket(account)",
+            "date": "2022-03-10 08:51:52",
+            "author": "akashCoindcx",
+            "username": "akashCoindcx"
+        },
+        {
+            "info": "Updated client order id example",
+            "date": "2022-03-07 08:48:33",
+            "author": "Aviral Sachdeo",
+            "username": "AviralSachdeo"
+        },
+        {
+            "info": "Added documentation of client-order-id for orders API",
+            "date": "2022-03-07 08:22:08",
+            "author": "Aviral Sachdeo",
+            "username": "AviralSachdeo"
+        },
+        {
+            "info": "Added documentation of client-order-id for orders API",
+            "date": "2022-03-07 08:17:43",
+            "author": "Aviral Sachdeo",
+            "username": "AviralSachdeo"
+        },
+        {
+            "info": "Merge pull request #29 from coindcx-official/feature/C2C-1369-add-sort-param-documentation\n\nC2C-1369-add-sort-param for account_trade_history",
+            "date": "2022-02-14 08:00:22",
+            "author": "akashCoindcx",
+            "username": "akashCoindcx"
+        },
+        {
+            "info": "Merge branch 'slatedocs-main' into library-sync",
+            "date": "2021-12-16 09:51:45",
+            "author": "Rohit Mishra",
+            "username": "rohit-coindcx"
+        },
+        {
+            "info": "Merge branch 'main' of https://github.com/slatedocs/slate into slatedocs-main",
+            "date": "2021-12-16 09:39:24",
+            "author": "Rohit Mishra",
+            "username": "rohit-coindcx"
+        },
+        {
+            "info": "Bump version to 2.12.0 (#1524)",
+            "date": "2021-12-15 21:21:02",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump middleman from 4.4.0 to 4.4.2 (#1530)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "date": "2021-12-15 21:21:02",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Ignore more files in docker images (#1523)",
+            "date": "2021-12-15 21:21:02",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Limit GITHUB_TOKEN scope for workflows (#1522)",
+            "date": "2021-12-15 21:21:02",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump ffi from 1.15.0 to 1.15.4 (#1510)",
+            "date": "2021-12-15 21:21:02",
+            "author": "Daniel Grieve",
+            "username": "dnlgrv"
+        },
+        {
+            "info": "Bump nokogiri from 1.12.4 to 1.12.5 (#1511)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "date": "2021-12-15 21:21:02",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Bump rouge from 3.26.0 to 3.26.1 (#1507)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "date": "2021-12-15 21:21:02",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Add CoinAPI to README examples (#1497)",
+            "date": "2021-12-15 21:21:02",
+            "author": "Artur Pietrzyk",
+            "username": "Svisstack"
+        },
+        {
+            "info": "Bump nokogiri from 1.12.3 to 1.12.4 (#1499)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "date": "2021-12-15 21:21:02",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Merge pull request #26 from coindcx-official/feature/update-documentation\n\nFeature/update documentation",
+            "date": "2021-11-18 08:39:07",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Delete README.md",
+            "date": "2021-11-01 12:48:48",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Create index.html",
+            "date": "2021-11-01 12:48:24",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Update README.md",
+            "date": "2021-11-01 12:45:08",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Initial commit",
+            "date": "2021-11-01 12:42:54",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Update README.md",
+            "date": "2021-11-01 12:32:36",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Merge pull request #25 from coindcx-official/feature/update-documentation\n\nAdded valid socket.js versions",
+            "date": "2021-10-29 20:12:02",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Merge pull request #24 from coindcx-official/feature/update-socket-documentation\n\nAdded example and definitions for response on depth-update channel",
+            "date": "2021-10-20 21:26:31",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Minor change",
+            "date": "2021-10-19 15:18:59",
+            "author": "Akashpal95",
+            "username": "Akashpal95"
+        },
+        {
+            "info": "Update javascript code for socket connection, updated examples and minor changes",
+            "date": "2021-10-19 15:09:53",
+            "author": "Akashpal95",
+            "username": "Akashpal95"
+        },
+        {
+            "info": "Added example and definitions for response on depth-update channel",
+            "date": "2021-10-18 18:04:55",
+            "author": "Akashpal95",
+            "username": "Akashpal95"
+        },
+        {
+            "info": "Merge pull request #23 from coindcx-official/feature/update-socket-documentation\n\nFeature/update socket documentation",
+            "date": "2021-10-12 06:30:35",
+            "author": "akashCoindcx",
+            "username": "akashCoindcx"
+        },
+        {
+            "info": "Update index.html.md\n\nchanged wss to https for javascript snippet",
+            "date": "2021-10-11 11:50:51",
+            "author": "akashCoindcx",
+            "username": "akashCoindcx"
+        },
+        {
+            "info": "Update index.html.md",
+            "date": "2021-10-11 11:38:54",
+            "author": "akashCoindcx",
+            "username": "akashCoindcx"
+        },
+        {
+            "info": "cut 2.11.0 release (#1455)",
+            "date": "2021-08-27 16:52:03",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump nokogiri from 1.12.1 to 1.12.3 (#1496)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "date": "2021-08-12 13:02:12",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Bump nokogiri from 1.11.7 to 1.12.1 (#1492)\n\nBumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.11.7 to 1.12.1.\r\n- [Release notes](https://github.com/sparklemotion/nokogiri/releases)\r\n- [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.11.7...v1.12.1)\r\n\r\n---\r\nupdated-dependencies:\r\n- dependency-name: nokogiri\r\n  dependency-type: direct:production\r\n  update-type: version-update:semver-minor\r\n...\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "date": "2021-08-03 22:23:31",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Bump addressable from 2.7.0 to 2.8.0 (#1484)\n\nCo-authored-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-08-03 16:39:11",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Fix incorrect ruby-version parameter in deploy GitHub Actions (#1489)",
+            "date": "2021-07-28 21:11:09",
+            "author": "King'ori Maina",
+            "username": "itskingori"
+        },
+        {
+            "info": "Bump nokogiri from 1.11.6 to 1.11.7 (#1459)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "date": "2021-06-18 06:08:15",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Bump middleman from d180ca3 to 4.4.0 (#1474)",
+            "date": "2021-06-18 00:08:35",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Update jquery to 3.6.0 (#1458)",
+            "date": "2021-06-17 23:51:33",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Add sample usage of meta frontmatter to layout\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-05-31 15:40:59",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Set minimum supported version of nokogiri to 1.11.4\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-05-31 15:32:55",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Support specifying custom meta tags in YAML (#1453)",
+            "date": "2021-05-31 15:31:41",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump nokogiri from 1.11.5 to 1.11.6 (#1450)\n\nBumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.11.5 to 1.11.6.\r\n- [Release notes](https://github.com/sparklemotion/nokogiri/releases)\r\n- [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.11.5...v1.11.6)\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "date": "2021-05-31 14:30:52",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Bump middleman-autoprefixer from 2.10.1 to 3.0.0 (#1445)\n\nBumps [middleman-autoprefixer](https://github.com/middleman/middleman-autoprefixer) from 2.10.1 to 3.0.0.\r\n- [Release notes](https://github.com/middleman/middleman-autoprefixer/releases)\r\n- [Changelog](https://github.com/middleman/middleman-autoprefixer/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/middleman/middleman-autoprefixer/compare/v2.10.1...v3.0.0)\r\n\r\nSigned-off-by: dependabot[bot] <support@github.com>\r\n\r\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "date": "2021-05-24 17:19:11",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Bump nokogiri from 1.11.3 to 1.11.5 (#1446)\n\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+            "date": "2021-05-24 17:18:47",
+            "author": "dependabot[bot]",
+            "username": "dependabot[bot]"
+        },
+        {
+            "info": "Upgrade to GitHub-native Dependabot (#1435)\n\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2021-04-29 04:36:22",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Merge pull request #22 from coindcx-official/hft\n\nuse hft includes",
+            "date": "2021-04-27 12:11:41",
+            "author": "vibhaj-dcx",
+            "username": "vibhaj-dcx"
+        },
+        {
+            "info": "use hft includes",
+            "date": "2021-04-27 12:10:19",
+            "author": "Vibhaj Rajan",
+            "username": "tr4n2uil"
+        },
+        {
+            "info": "Merge pull request #21 from coindcx-official/hft\n\nadd hft section",
+            "date": "2021-04-27 12:01:38",
+            "author": "vibhaj-dcx",
+            "username": "vibhaj-dcx"
+        },
+        {
+            "info": "add hft section",
+            "date": "2021-04-27 11:59:36",
+            "author": "Vibhaj Rajan",
+            "username": "tr4n2uil"
+        },
+        {
+            "info": "cut 2.10.0 release (#1428)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-04-16 01:33:25",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump middleman from `0c950d8` to `d180ca3` (#1427)\n\nBumps [middleman](https://github.com/middleman/middleman) from `0c950d8` to `d180ca3`.\r\n- [Release notes](https://github.com/middleman/middleman/releases)\r\n- [Commits](https://github.com/middleman/middleman/compare/0c950d82f6f4f540e8572195f80c9a9fb15ab80c...d180ca337202873f2601310c74ba2b6b4cf063ec)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2021-04-13 12:33:45",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Add git to Dockerfile (#1426)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-04-08 19:24:53",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Make slate compatible with ruby 3.0.0 (#1424)",
+            "date": "2021-04-08 19:06:38",
+            "author": "Shaun VanWeelden",
+            "username": "shaun-scale"
+        },
+        {
+            "info": "Bump nokogiri from 1.11.2 to 1.11.3 (#1425)\n\nBumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.11.2 to 1.11.3.\r\n- [Release notes](https://github.com/sparklemotion/nokogiri/releases)\r\n- [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.11.2...v1.11.3)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2021-04-08 11:54:29",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "cut 2.9.2 release\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-03-30 11:44:29",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "[Security] Bump kramdown from 2.3.0 to 2.3.1 (#1416)\n\nBumps [kramdown](https://github.com/gettalong/kramdown) from 2.3.0 to 2.3.1. **This update includes a security fix.**\r\n- [Release notes](https://github.com/gettalong/kramdown/releases)\r\n- [Changelog](https://github.com/gettalong/kramdown/blob/master/doc/news.page)\r\n- [Commits](https://github.com/gettalong/kramdown/commits)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2021-03-29 22:23:03",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Bump nokogiri from 1.11.1 to 1.11.2 (#1407)\n\nBumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.11.1 to 1.11.2.\r\n- [Release notes](https://github.com/sparklemotion/nokogiri/releases)\r\n- [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.11.1...v1.11.2)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2021-03-14 22:32:12",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "cut 2.9.1 release (#1400)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-02-27 23:44:13",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Add guards around localStorage in case user disables it (#1399)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-02-25 14:25:55",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Fix changelog entry for 2.9.0",
+            "date": "2021-01-27 23:22:12",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Specify slate is not Ruby 3.0 compatible\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-01-27 23:22:12",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Update changelog for 2.9.0\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-01-27 23:22:12",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump nokogiri from 1.11.0 to 1.11.1 (#1370)\n\nBumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.11.0 to 1.11.1.\r\n- [Release notes](https://github.com/sparklemotion/nokogiri/releases)\r\n- [Changelog](https://github.com/sparklemotion/nokogiri/blob/main/CHANGELOG.md)\r\n- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.11.0...v1.11.1)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2021-01-27 23:22:12",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "[Security] Bump nokogiri from 1.10.10 to 1.11.0 (#1360)\n\nBumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.10.10 to 1.11.0. **This update includes a security fix.**\r\n- [Release notes](https://github.com/sparklemotion/nokogiri/releases)\r\n- [Changelog](https://github.com/sparklemotion/nokogiri/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.10.10...v1.11.0)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2021-01-27 23:22:12",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Update supported ruby version in Gemfile\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-01-27 23:22:12",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Drop support for Ruby 2.3 and 2.4 (#1366)\n\nSigned-off-By: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-01-27 23:22:12",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Remove scale from README examples (#1363)\n\nThey've switched to readme.io",
+            "date": "2021-01-27 23:22:12",
+            "author": "Courtenay",
+            "username": "hdsheena"
+        },
+        {
+            "info": "Update link to ruby languages in README (#1351)\n\nSigned-off-By: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2021-01-27 23:22:12",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump redcarpet from 3.5.0 to 3.5.1 (#1352)\n\nBumps [redcarpet](https://github.com/vmg/redcarpet) from 3.5.0 to 3.5.1.\r\n- [Release notes](https://github.com/vmg/redcarpet/releases)\r\n- [Changelog](https://github.com/vmg/redcarpet/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/vmg/redcarpet/compare/v3.5.0...v3.5.1)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2021-01-27 23:22:12",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Bump rouge from 3.25.0 to 3.26.0 (#1350)\n\nBumps [rouge](https://github.com/rouge-ruby/rouge) from 3.25.0 to 3.26.0.\r\n- [Release notes](https://github.com/rouge-ruby/rouge/releases)\r\n- [Changelog](https://github.com/rouge-ruby/rouge/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/rouge-ruby/rouge/compare/v3.25.0...v3.26.0)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2021-01-27 23:22:12",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Bump rouge from 3.24.0 to 3.25.0 (#1343)\n\nBumps [rouge](https://github.com/rouge-ruby/rouge) from 3.24.0 to 3.25.0.\r\n- [Release notes](https://github.com/rouge-ruby/rouge/releases)\r\n- [Changelog](https://github.com/rouge-ruby/rouge/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/rouge-ruby/rouge/compare/v3.24.0...v3.25.0)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2021-01-27 23:22:12",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Fix vagrant issue: use exact version of bundler (#1355)\n\nI was getting this error, ''Cant find gem bundler (>= 0.a) with\r\nexecutable bundle', after I ran `vagrant up`. The version of RubyGem\r\ninstalled in the vagrant box cannot find the exact version of Bundler\r\nlisted in Gemfile.lock. This solution ensures that the exact bundler\r\nversion installed in Gemfile.lock is installed before running `bundle\r\ninstall`.\r\n\r\nThe issue is solved in RubyGems >= 2.7.10 and Ruby >=2.6.3. This\r\nsolution ensures a fix without requiring a more complicated upgrade.\r\n\r\nMore information found here: https://bundler.io/blog/2019/05/14/solutions-for-cant-find-gem-bundler-with-executable-bundle.html",
+            "date": "2020-12-17 02:22:51",
+            "author": "Victor E F",
+            "username": "victorevector"
+        },
+        {
+            "info": "Add documentation for /edit endpoint for Spot Orders",
+            "date": "2020-12-14 09:35:16",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "add docker version badge to README\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-11-10 18:34:17",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Update command to fetch latest commit for issue template (#1342)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-11-10 18:29:26",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "cut 2.8.0 release\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-10-27 19:21:49",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Fix shell code examples to have line continuations (#1324)",
+            "date": "2020-10-27 18:47:45",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "add docker deploy step to github workflows (#1321)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-10-27 18:42:44",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Dockerfile: allow Docker to cache build steps (#1336)\n\n- By having a `COPY . xx` step before installing dependencies, we rob\r\nDocker of the opportunity to cache downloading and building dependencies\r\nif we make any changes to any files in the repository. By copying only\r\nGemfiles before the build step, we only require Docker to rebuild\r\ndependencies when the Gemfiles have changed.\r\n\r\nCo-authored-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-10-26 18:31:15",
+            "author": "Michael Bang",
+            "username": "micvbang"
+        },
+        {
+            "info": "Bump rouge from 3.23.0 to 3.24.0 (#1334)\n\nBumps [rouge](https://github.com/rouge-ruby/rouge) from 3.23.0 to 3.24.0.\r\n- [Release notes](https://github.com/rouge-ruby/rouge/releases)\r\n- [Changelog](https://github.com/rouge-ruby/rouge/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/rouge-ruby/rouge/compare/v3.23.0...v3.24.0)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-10-15 23:35:53",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "upgrade lunr to 2.3.9 (#1325)\n\nSigned-off-by: Mike Ralphson <mike.ralphson@gmail.com>",
+            "date": "2020-09-23 03:07:24",
+            "author": "Mike Ralphson",
+            "username": "MikeRalphson"
+        },
+        {
+            "info": "Bump middleman from 4.3.10 to 4.3.11 (#1319)\n\nBumps [middleman](https://github.com/middleman/middleman) from 4.3.10 to 4.3.11.\r\n- [Release notes](https://github.com/middleman/middleman/releases)\r\n- [Changelog](https://github.com/middleman/middleman/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/middleman/middleman/commits)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-09-17 01:26:10",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Bump middleman from 4.3.8 to 4.3.10 (#1316)\n\nBumps [middleman](https://github.com/middleman/middleman) from 4.3.8 to 4.3.10.\r\n- [Release notes](https://github.com/middleman/middleman/releases)\r\n- [Changelog](https://github.com/middleman/middleman/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/middleman/middleman/compare/v4.3.8...v4.3.10)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-09-11 15:45:34",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Bump rouge from 3.21.0 to 3.23.0 (#1311)\n\nBumps [rouge](https://github.com/rouge-ruby/rouge) from 3.21.0 to 3.23.0.\r\n- [Release notes](https://github.com/rouge-ruby/rouge/releases)\r\n- [Changelog](https://github.com/rouge-ruby/rouge/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/rouge-ruby/rouge/compare/v3.21.0...v3.23.0)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-09-10 18:25:43",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Remove outdated special thanks section in README.md (#1307)",
+            "date": "2020-09-10 16:55:45",
+            "author": "Mike Ralphson",
+            "username": "MikeRalphson"
+        },
+        {
+            "info": "update actions/cache to v2 for gh workflows (#1314)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-09-10 16:47:29",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Add deploy to gh-pages for dev branch (#1305)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-09-10 16:28:30",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Merge branch 'main' into dev",
+            "date": "2020-08-16 00:05:29",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "cut 2.7.1 release\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-08-15 18:17:12",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump middleman from 4.3.7 to 4.3.8 (#1302)\n\nBumps [middleman](https://github.com/middleman/middleman) from 4.3.7 to 4.3.8.\n- [Release notes](https://github.com/middleman/middleman/releases)\n- [Changelog](https://github.com/middleman/middleman/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/middleman/middleman/compare/v4.3.7...v4.3.8)\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\n\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-08-15 18:17:12",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Bump middleman from 4.3.7 to 4.3.8 (#1302)\n\nBumps [middleman](https://github.com/middleman/middleman) from 4.3.7 to 4.3.8.\r\n- [Release notes](https://github.com/middleman/middleman/releases)\r\n- [Changelog](https://github.com/middleman/middleman/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/middleman/middleman/compare/v4.3.7...v4.3.8)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-08-13 17:35:50",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Rework docker image to be easier to use for development and deployment (#1297)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-08-10 14:42:37",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "trim ending newline on copied code (#1296)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-08-10 14:26:12",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump nokogiri from 1.10.9 to 1.10.10 (#1282)\n\nBumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.10.9 to 1.10.10.\n- [Release notes](https://github.com/sparklemotion/nokogiri/releases)\n- [Changelog](https://github.com/sparklemotion/nokogiri/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.10.9...v1.10.10)\n\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\n\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-07-31 13:08:39",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Bump rouge from 3.20.0 to 3.21.0 (#1285)\n\nBumps [rouge](https://github.com/rouge-ruby/rouge) from 3.20.0 to 3.21.0.\r\n- [Release notes](https://github.com/rouge-ruby/rouge/releases)\r\n- [Changelog](https://github.com/rouge-ruby/rouge/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/rouge-ruby/rouge/compare/v3.20.0...v3.21.0)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-07-31 12:52:39",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Remove merge conflict lines from README (#1274)",
+            "date": "2020-06-24 18:34:23",
+            "author": "McKay Ward",
+            "username": "mckayward"
+        },
+        {
+            "info": "Fix link from master to main branch\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-06-22 20:48:45",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Remove extra space before date for 2.7.0\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-06-22 20:44:34",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "cut 2.7.0 release (#1268)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Strip HTML tags from ToC element with regex before showing in title bar (#1120)",
+            "date": "2020-06-22 20:35:41",
+            "author": "Andrew Lloyd Cartwright",
+            "username": "atlc"
+        },
+        {
+            "info": "fix language bar truncating long list of langs (#1266)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Fix handling ToC selectors that contain punctuation (#1109)\n\nTools like go-swag can produce schemas with IDs that contain '.' and\r\nother characters that are used in CSS notation. Those IDs can't be used\r\nproperly in a jQuery selector unless the special characters are escaped.\r\n\r\nCo-authored-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "Caleb Crane",
+            "username": "gruis"
+        },
+        {
+            "info": "add copy to clipboard icon to code boxes (#1258)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "use different rouge theme for printing (#1259)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "[Security] Bump rack from 2.2.2 to 2.2.3 (#1262)\n\nBumps [rack](https://github.com/rack/rack) from 2.2.2 to 2.2.3. **This update includes a security fix.**\r\n- [Release notes](https://github.com/rack/rack/releases)\r\n- [Changelog](https://github.com/rack/rack/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/rack/rack/compare/v2.2.2...2.2.3)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Bump rouge from 3.19.0 to 3.20.0 (#1260)\n\nBumps [rouge](https://github.com/rouge-ruby/rouge) from 3.19.0 to 3.20.0.\r\n- [Release notes](https://github.com/rouge-ruby/rouge/releases)\r\n- [Changelog](https://github.com/rouge-ruby/rouge/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/rouge-ruby/rouge/compare/v3.19.0...v3.20.0)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Bump redcarpet from 3.4.0 to 3.5.0 (#1241)\n\nBumps [redcarpet](https://github.com/vmg/redcarpet) from 3.4.0 to 3.5.0.\r\n- [Release notes](https://github.com/vmg/redcarpet/releases)\r\n- [Changelog](https://github.com/vmg/redcarpet/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/vmg/redcarpet/compare/v3.4.0...v3.5.0)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "mark files under source/javascripts/lib as vendored by GitHub statistics\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump rouge from 3.17.0 to 3.19.0 (#1242)\n\nBumps [rouge](https://github.com/rouge-ruby/rouge) from 3.17.0 to 3.19.0.\r\n- [Release notes](https://github.com/rouge-ruby/rouge/releases)\r\n- [Changelog](https://github.com/rouge-ruby/rouge/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/rouge-ruby/rouge/compare/v3.17.0...v3.19.0)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Update JavaScript dependencies (#1248)\n\nSigned-off-by: Mike Ralphson <mike.ralphson@gmail.com>",
+            "date": "2020-06-22 20:35:41",
+            "author": "Mike Ralphson",
+            "username": "MikeRalphson"
+        },
+        {
+            "info": "Fix username typo in changelog (#1256)\n\nCorrect Github username to jakemack from jackmack",
+            "date": "2020-06-22 20:34:12",
+            "author": "jakemack",
+            "username": "jakemack"
+        },
+        {
+            "info": "Remove outdated special thanks section: README.md (#1267)\n\nFixes #1243",
+            "date": "2020-06-21 17:02:09",
+            "author": "Mike Ralphson",
+            "username": "MikeRalphson"
+        },
+        {
+            "info": "Update deploy.yml (#1265)\n\nmaster -> main branch",
+            "date": "2020-06-20 19:45:22",
+            "author": "lord",
+            "username": "lord"
+        },
+        {
+            "info": "master -> main (#1264)",
+            "date": "2020-06-20 19:37:55",
+            "author": "lord",
+            "username": "lord"
+        },
+        {
+            "info": "Fix link to wiki in README (#1253)",
+            "date": "2020-06-04 03:11:21",
+            "author": "Simon Marcus",
+            "username": "simon-marcus"
+        },
+        {
+            "info": "Fix broken \"Getting Started\" link in README (#1251)",
+            "date": "2020-06-01 14:23:29",
+            "author": "Ritesh Kumar",
+            "username": "ritesh99rakesh"
+        },
+        {
+            "info": "cut v2.6.1 release (#1249)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-30 18:38:16",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Bump middleman from 4.3.6 to 4.3.7 (#1247)\n\nBumps [middleman](https://github.com/middleman/middleman) from 4.3.6 to 4.3.7.\r\n- [Release notes](https://github.com/middleman/middleman/releases)\r\n- [Changelog](https://github.com/middleman/middleman/blob/v4.3.7/CHANGELOG.md)\r\n- [Commits](https://github.com/middleman/middleman/compare/v4.3.6...v4.3.7)\r\n\r\nSigned-off-by: dependabot-preview[bot] <support@dependabot.com>\r\n\r\nCo-authored-by: dependabot-preview[bot] <27856297+dependabot-preview[bot]@users.noreply.github.com>",
+            "date": "2020-05-30 18:38:11",
+            "author": "dependabot-preview[bot]",
+            "username": "dependabot-preview[bot]"
+        },
+        {
+            "info": "Replace README Getting Started with links to wiki (#1246)",
+            "date": "2020-05-28 21:48:54",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "add missing middleman build step to deploy gh workflow\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-23 14:36:58",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Replace travis with github actions (#1240)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-23 14:29:31",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Update bug report templates, remove links to Spectrum (#1239)",
+            "date": "2020-05-21 22:21:14",
+            "author": "lord",
+            "username": "lord"
+        },
+        {
+            "info": "v2.6.0 release\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-19 20:53:09",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "update sassc to 2.3.0 in Gemfile.lock\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-19 20:53:09",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "switch to using debian for docker base for bash (#1233)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-19 20:53:09",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "disable asset hash for woff and woff2 files out of the box (#1231)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-19 20:53:09",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Change instructions to use templates instead of forking (#1234)",
+            "date": "2020-05-19 20:53:09",
+            "author": "lord",
+            "username": "lord"
+        },
+        {
+            "info": "fix bc style breaks from rouge 3.x (#1226)\n\n* fix bc style breaks from rouge 3.x\r\n\r\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>\r\n\r\n* use bright_pink for Name::Label\r\n\r\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-19 20:53:09",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Add notice for max number of open margin (bracket) orders for one market",
+            "date": "2020-05-19 06:46:44",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "update screenshot in README with new rouge styling (#1228)\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-12 15:45:41",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "add 2.5.0 release to changelog\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-11 13:25:54",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "update nokogiri to ~> 1.10.8\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-11 13:25:54",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "update middleman-syntax and rouge to ~>3.2\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-11 13:25:54",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "update middleman dep to 4.3.6\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-11 13:25:54",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Remove line in README about Docker wiki\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-11 13:25:54",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "add instructions to running docker to README\n\nSigned-off-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-11 13:25:54",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "add Dockerfile (#1124)\n\n* add Dockerfile\r\n\r\nadd Dockerfile\r\n\r\n* Update Dockerfile\r\n\r\nCo-authored-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-11 13:25:54",
+            "author": "KaliArch",
+            "username": "redhatxl"
+        },
+        {
+            "info": "Install nodejs in Vagrantfile (#1202)\n\nCo-authored-by: Matthew Peveler <matt.peveler@gmail.com>",
+            "date": "2020-05-11 13:25:54",
+            "author": "Fernando Aguilar",
+            "username": "fernandoaguilar"
+        },
+        {
+            "info": "List maintainers in README (#1164)",
+            "date": "2020-05-11 13:25:54",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Fully parse arguments first in deploy (#1153)\n\n* Do not build sources when using --help\r\n\r\n* Use variables for build/push if statements\r\n\r\n* fix error message",
+            "date": "2020-05-11 13:25:54",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Update tested versions of ruby on Travis (#1160)",
+            "date": "2020-05-11 13:25:54",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Ignore generated log file from running Vagrant",
+            "date": "2020-05-11 13:25:54",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Update Vagrantfile to Ubuntu 18.04 (#1158)\n\n* Slate 2.4 breaks vagrant\r\n\r\n* Update Vagrantfile\r\n\r\n* Update Vagrantfile",
+            "date": "2020-05-11 13:25:54",
+            "author": "Brad Thurber",
+            "username": "bradthurber"
+        },
+        {
+            "info": "Update python example scripts throughout",
+            "date": "2020-04-15 12:06:49",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Update python example script to place order\n\n1. Secret needs to be converted to bytes before passing to hmac.new\n2. json_body needs to be encoded before passing to hmac.new",
+            "date": "2020-04-15 06:23:54",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Merge branch 'master' of github.com:coindcx-official/rest-api",
+            "date": "2020-04-15 06:19:42",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Merge pull request #2 from bharatramnani94/feature/updateReadme\n\nUpdate README",
+            "date": "2020-04-09 10:52:23",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Merge pull request #1 from bharatramnani94/feature/addOrderLimit\n\nAdd notice for max number of open orders for one market",
+            "date": "2020-04-09 10:51:47",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Add notice for max number of open orders for one market",
+            "date": "2020-04-09 09:19:24",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Update README",
+            "date": "2020-04-09 09:16:08",
+            "author": "Bharat Ramnani",
+            "username": "bharatramnani94"
+        },
+        {
+            "info": "Merge pull request #1186 from BigBlueHat/patch-2\n\nUse the full Apache License 2.0 text in LICENSE",
+            "date": "2020-03-31 16:02:21",
+            "author": "Mike Ralphson",
+            "username": "MikeRalphson"
+        },
+        {
+            "info": "Merge branch 'master' into patch-2",
+            "date": "2020-03-31 15:56:43",
+            "author": "Mike Ralphson",
+            "username": "MikeRalphson"
+        },
+        {
+            "info": "title changed",
+            "date": "2020-02-22 13:51:18",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "api for fetching single order",
+            "date": "2020-02-19 04:14:40",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "Update GitHub Links on example generated site (#1196)",
+            "date": "2020-02-04 13:32:50",
+            "author": "Alex Mayer",
+            "username": "amayer5125"
+        },
+        {
+            "info": "Use the full Apache License 2.0 text in LICENSE\n\nPer the Apache Software Foundation guidelines for applying the Apache License 2.0:\r\nhttps://www.apache.org/foundation/license-faq.html#Apply-My-Software\r\n\r\n> You should include a copy of the Apache License, typically in a file called LICENSE, in your work, and consider also including a NOTICE file.",
+            "date": "2020-01-10 14:27:41",
+            "author": "BigBlueHat",
+            "username": "BigBlueHat"
+        },
+        {
+            "info": "quotes",
+            "date": "2019-11-22 07:12:44",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "lend doc",
+            "date": "2019-11-21 13:23:44",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "syntax",
+            "date": "2019-11-01 07:33:10",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "Cut version 2.4.0",
+            "date": "2019-10-20 23:49:48",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "[Security] Upgrade nokogiri to 1.10.4 (#1150)",
+            "date": "2019-10-20 23:49:48",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Update url for travis badge",
+            "date": "2019-10-20 23:49:48",
+            "author": "Matthew Peveler",
+            "username": "MasterOdin"
+        },
+        {
+            "info": "Updated README.md from lord/slate to slatedocs/slate (#1140)",
+            "date": "2019-10-20 23:49:48",
+            "author": "Gustavo Gawryszewski",
+            "username": "gawry"
+        },
+        {
+            "info": "change example link correctly (#1130)",
+            "date": "2019-10-20 23:49:48",
+            "author": "daniel-korbit",
+            "username": "danielkorbit"
+        },
+        {
+            "info": "updated config.rb to activate asset_hash (#1076)",
+            "date": "2019-10-20 23:49:48",
+            "author": "Sam Gilman",
+            "username": "thenengah"
+        },
+        {
+            "info": "Update issue templates",
+            "date": "2019-10-20 23:49:48",
+            "author": "Dan",
+            "username": "dan-os"
+        },
+        {
+            "info": "Update to bundler 2.0 in travis.yml",
+            "date": "2019-10-20 23:49:48",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Bundle update; upgrade middleman, add sass gem\n\nPatch taken from #1092, thanks jakemack",
+            "date": "2019-10-20 23:49:48",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "[Security] Bump rack from 2.0.5 to 2.0.6 (#1038)\n\nBumps [rack](https://github.com/rack/rack) from 2.0.5 to 2.0.6. **This update includes security fixes.**\r\n- [Release notes](https://github.com/rack/rack/releases)\r\n- [Changelog](https://github.com/rack/rack/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/rack/rack/compare/2.0.5...2.0.6)\r\n\r\nSigned-off-by: dependabot[bot] <support@dependabot.com>",
+            "date": "2019-10-20 23:49:48",
+            "author": "Grey Baker",
+            "username": "greysteil"
+        },
+        {
+            "info": "[Security] Bump ffi from 1.9.17 to 1.9.25 (#1017)\n\nBumps [ffi](https://github.com/ffi/ffi) from 1.9.17 to 1.9.25. **This update includes security fixes.**\r\n- [Release notes](https://github.com/ffi/ffi/releases)\r\n- [Changelog](https://github.com/ffi/ffi/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/ffi/ffi/compare/1.9.17...1.9.25)\r\n\r\nSigned-off-by: dependabot[bot] <support@dependabot.com>",
+            "date": "2019-10-20 23:49:48",
+            "author": "Grey Baker",
+            "username": "greysteil"
+        },
+        {
+            "info": "Fix lowercase \"c\" in \"WooCommerce\". (#1043)",
+            "date": "2019-10-20 23:49:48",
+            "author": "Jeff Stieler",
+            "username": "jeffstieler"
+        },
+        {
+            "info": "Update link in .editorconfig to https (#1049)",
+            "date": "2019-10-20 23:49:48",
+            "author": "Christian Oliff",
+            "username": "coliff"
+        },
+        {
+            "info": "[Security] Bump nokogiri from 1.8.2 to 1.8.5 (#1026)\n\nBumps [nokogiri](https://github.com/sparklemotion/nokogiri) from 1.8.2 to 1.8.5. **This update includes security fixes.**\r\n- [Release notes](https://github.com/sparklemotion/nokogiri/releases)\r\n- [Changelog](https://github.com/sparklemotion/nokogiri/blob/master/CHANGELOG.md)\r\n- [Commits](https://github.com/sparklemotion/nokogiri/compare/v1.8.2...v1.8.5)\r\n\r\nSigned-off-by: dependabot[bot] <support@dependabot.com>",
+            "date": "2019-10-20 23:49:48",
+            "author": "Grey Baker",
+            "username": "greysteil"
+        },
+        {
+            "info": "Update issue template to direct users to changelog instead of git commits",
+            "date": "2019-10-20 23:49:48",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "web socket info for bracket order",
+            "date": "2019-10-09 12:22:46",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "Merge pull request #1 from mnj93/fix-pg-socket-error\n\nadded rescue for reconnecting replica",
+            "date": "2019-09-19 10:30:08",
+            "author": "Manoj Kumawat",
+            "username": "mnj93"
+        },
+        {
+            "info": "heading",
+            "date": "2019-09-13 08:22:00",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "def improv",
+            "date": "2019-09-13 08:20:28",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "lang improv",
+            "date": "2019-09-11 13:54:20",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "space handled",
+            "date": "2019-09-11 13:52:39",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "terms added",
+            "date": "2019-09-11 13:45:39",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "first commi",
+            "date": "2019-09-11 10:56:21",
+            "author": "Srishti Khandelwal",
+            "username": "srishti-monali"
+        },
+        {
+            "info": "Merge pull request #1 from mnj93/updated-public-apis\n\nUpdated public apis",
+            "date": "2019-08-12 09:50:58",
+            "author": "Manoj Kumawat",
+            "username": "mnj93"
+        },
+        {
+            "info": "added volume",
+            "date": "2019-08-06 13:33:53",
+            "author": "Saarang Tiwari",
+            "username": "saarang1995"
+        },
+        {
+            "info": "Removed kitten unnecessay buggy code",
+            "date": "2019-04-16 12:14:22",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "Updated pair information in Sockets",
+            "date": "2019-04-13 08:38:35",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "Replaced errors from the production errors",
+            "date": "2019-04-12 06:44:46",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "Optimized json dumps code for auth generation",
+            "date": "2019-04-12 06:36:25",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "Added private account code for python",
+            "date": "2019-04-12 06:25:29",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "Updated index.html",
+            "date": "2019-04-11 08:52:21",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "Updating the market data",
+            "date": "2019-04-11 08:44:25",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "Completed python doc",
+            "date": "2019-04-09 08:39:16",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "added python",
+            "date": "2019-04-09 08:21:28",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "made few changes",
+            "date": "2019-04-08 15:08:20",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "made few changes",
+            "date": "2019-04-08 14:55:33",
+            "author": "saarangdev",
+            "username": "saarang1995"
+        },
+        {
+            "info": "Octopus 0.10.2",
+            "date": "2019-03-11 02:49:15",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #513 from craigmcnamara/patch-1\n\nDrop antiquated slave terminology in favor of read_replica in examples.",
+            "date": "2019-03-11 02:36:02",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #516 from kyuden/mantain_shard_after_where_not\n\nMantain current shard with enum method after where.not",
+            "date": "2019-03-11 02:35:22",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #510 from jkhart/master\n\nbugfix: transaction should not reassign @klass variable",
+            "date": "2019-03-11 02:34:26",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fix a compatibility for sqlite3 gem",
+            "date": "2019-03-04 15:41:19",
+            "author": "kyuden",
+            "username": "kyuden"
+        },
+        {
+            "info": "Mantain current shard with enum method after where.not",
+            "date": "2019-03-04 14:30:16",
+            "author": "kyuden",
+            "username": "kyuden"
+        },
+        {
+            "info": "bugfix: transaction should not reassign @klass variable",
+            "date": "2018-11-13 23:57:48",
+            "author": "Ken Hart",
+            "username": "jkhart"
+        },
+        {
+            "info": "Octopus 0.10.1",
+            "date": "2018-10-31 01:17:15",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #509 from michaelphines/lazy-batches\n\nSupport lazy batches",
+            "date": "2018-10-31 01:16:08",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Octopus 0.10.0",
+            "date": "2018-10-31 01:13:16",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Adding missing PR link",
+            "date": "2018-10-31 01:08:56",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Adding Octopus notice to Readme",
+            "date": "2018-10-31 01:07:59",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Removing Pledgie Badge - site has closed this Feb.",
+            "date": "2018-10-31 01:00:46",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #494 from thiagopradi/feature/updating-octopus-versions\n\nRails 5.2 Support",
+            "date": "2018-10-31 00:57:24",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fixing migration SPEC for Rails 5.2",
+            "date": "2018-10-21 23:50:31",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge branch 'master' into feature/updating-octopus-versions",
+            "date": "2018-10-21 22:55:58",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #508 from kevinjcoleman/feature/updating-octopus-versions\n\nonly migrate specified shards.",
+            "date": "2018-10-21 22:40:19",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Support lazy batches",
+            "date": "2018-10-19 13:42:31",
+            "author": "Michael Hines",
+            "username": "michaelphines"
+        },
+        {
+            "info": "Merge pull request #496 from hornet-network/master\n\nFix QueryCacheForShards breaking in environments where Octopus is not enabled",
+            "date": "2018-10-16 03:04:53",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #498 from hornet-network/fix_sum\n\nFix Active Record sum",
+            "date": "2018-10-16 03:03:36",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #499 from sekiyama58/fix_ci_failure\n\nExpand mysql2 gem version to fix CI test failures",
+            "date": "2018-10-16 03:02:00",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #507 from kevinjcoleman/feature/updating-octopus-versions\n\nFeature/updating octopus versions",
+            "date": "2018-10-16 02:59:30",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "only migrate specified shards.",
+            "date": "2018-10-15 23:13:39",
+            "author": "Kevin Coleman",
+            "username": "kevinjcoleman"
+        },
+        {
+            "info": "Should be at least 5.2 so that future versions are supported correctly.",
+            "date": "2018-10-15 16:27:27",
+            "author": "Kevin Coleman",
+            "username": "kevinjcoleman"
+        },
+        {
+            "info": "Don't specific mysql v in rails 5.1",
+            "date": "2018-10-15 16:24:28",
+            "author": "Kevin Coleman",
+            "username": "kevinjcoleman"
+        },
+        {
+            "info": "Wrong Gemfile.",
+            "date": "2018-10-15 02:21:39",
+            "author": "Kevin Coleman",
+            "username": "kevinjcoleman"
+        },
+        {
+            "info": "Fix disconnect error and specify mysql version in gemfile.",
+            "date": "2018-10-15 02:21:15",
+            "author": "Kevin Coleman",
+            "username": "kevinjcoleman"
+        },
+        {
+            "info": "Ensure internal metadata table created for specs.",
+            "date": "2018-10-15 02:12:40",
+            "author": "Kevin Coleman",
+            "username": "kevinjcoleman"
+        },
+        {
+            "info": "Fix migration specs.",
+            "date": "2018-10-12 21:54:53",
+            "author": "Kevin Coleman",
+            "username": "kevinjcoleman"
+        },
+        {
+            "info": "Fix too many connections errors.",
+            "date": "2018-10-12 20:44:33",
+            "author": "Kevin Coleman",
+            "username": "kevinjcoleman"
+        },
+        {
+            "info": "Fix arel errors and initialize_schema_migrations_table error.",
+            "date": "2018-10-12 20:44:13",
+            "author": "Kevin Coleman",
+            "username": "kevinjcoleman"
+        },
+        {
+            "info": "Version 1.2.0",
+            "date": "2018-07-10 05:23:58",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Merge pull request #27 from glennfu/patch-2\n\nRemove unused allPrices endpoint",
+            "date": "2018-07-10 05:10:02",
+            "author": "Charles",
+            "username": "craysiii"
+        },
+        {
+            "info": "Remove unused allPrices endpoint",
+            "date": "2018-07-09 13:14:00",
+            "author": "Glenn Sidney",
+            "username": "glennfu"
+        },
+        {
+            "info": "Update sprockets, cut version 2.3.1",
+            "date": "2018-07-05 23:32:01",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Cut version 2.3",
+            "date": "2018-07-05 23:28:32",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Fix ToC issues, fix #995",
+            "date": "2018-07-05 23:28:05",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Adding js to language bindings in sample intro (#1000)",
+            "date": "2018-07-05 22:18:22",
+            "author": "Nick Busey",
+            "username": "NickBusey"
+        },
+        {
+            "info": "Merge pull request #26 from glennfu/patch-1",
+            "date": "2018-07-04 06:04:10",
+            "author": "Charles",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add allPrices endpoint, and all_prices method",
+            "date": "2018-07-03 21:46:06",
+            "author": "Glenn Sidney",
+            "username": "glennfu"
+        },
+        {
+            "info": "Expand mysql2 gem version to fix CI test failures",
+            "date": "2018-07-02 12:19:55",
+            "author": "Tomoki Sekiyama",
+            "username": "sekiyama58"
+        },
+        {
+            "info": "Fix Active Record sum",
+            "date": "2018-07-02 09:41:46",
+            "author": "Matthew Hirst",
+            "username": "SixiS"
+        },
+        {
+            "info": "Add test that fails when QueryCacheForShards is run without enabled check.",
+            "date": "2018-06-29 11:04:34",
+            "author": "Matthew Hirst",
+            "username": "SixiS"
+        },
+        {
+            "info": "Fix QueryCacheForShards breaking when Octopus is not enabled.",
+            "date": "2018-06-29 10:37:00",
+            "author": "Matthew Hirst",
+            "username": "SixiS"
+        },
+        {
+            "info": "Version 1.1.0",
+            "date": "2018-06-08 21:10:04",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add REST#dust_log method and endpoint.",
+            "date": "2018-06-08 21:07:52",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Appease the RuboCop Gods.",
+            "date": "2018-06-08 21:01:37",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Remove REST#product method and endpoint.",
+            "date": "2018-06-08 20:56:14",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Commenting Migration Spec for now",
+            "date": "2018-06-04 03:49:06",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Adding Rails 5.2 to Appraisals",
+            "date": "2018-06-04 03:48:37",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge branch 'feature/updating-octopus-versions' of github.com:thiagopradi/octopus into feature/updating-octopus-versions",
+            "date": "2018-06-04 03:46:16",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #488 from feederco/rails-5.2\n\nImplement support for Rails 5.2",
+            "date": "2018-06-04 03:38:14",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge branch 'feature/updating-octopus-versions' into rails-5.2",
+            "date": "2018-06-04 03:37:07",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Removing Rails 5.0 test for now",
+            "date": "2018-06-04 03:16:51",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Removing more association hacks",
+            "date": "2018-06-04 03:12:34",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Removing more hacks",
+            "date": "2018-06-04 02:36:54",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Removing Rails 4.1 hack method",
+            "date": "2018-06-04 02:35:01",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Removing Rails 4.0/4.1 hacks",
+            "date": "2018-06-04 02:33:11",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Updating existing gemfiles",
+            "date": "2018-06-04 02:25:44",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Dropping support for Ruby 2.1 & Rails 4.0/4.1",
+            "date": "2018-06-04 02:25:06",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #483 from sekiyama58/fix_shard_tracking\n\nFix association shard tracking combined with enum method chain in Rails5",
+            "date": "2018-06-04 02:20:15",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Update gemspec to not break existing apps",
+            "date": "2018-06-04 02:18:51",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #491 from sekiyama58/fix_query_cache_on_rails5\n\nFix query cache enable/disable methods proxy on Rails5.x",
+            "date": "2018-06-04 02:02:57",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "[Security] Bump nokogiri from 1.6.8.1 to 1.8.2 (#980)",
+            "date": "2018-05-21 19:48:49",
+            "author": "Grey Baker",
+            "username": "greysteil"
+        },
+        {
+            "info": "Fix query cache enable/disable methods proxy on Rails5.x\n\nThe enable_query_cache! and disable_query_cache! methods are moved to\nConnectionProxy on Rails5.\nCurrently Octopus hijacks Connection's methods to turn on/off the\nquery cache for all shards, but should hook ConnectionProxy on Rails5.\n\nThis fixes issue that the query cache is shared beyond requests.",
+            "date": "2018-05-15 02:01:53",
+            "author": "Tomoki Sekiyama",
+            "username": "sekiyama58"
+        },
+        {
+            "info": "Remove invalid links (#979)",
+            "date": "2018-04-25 02:11:26",
+            "author": "Ricardo Castro",
+            "username": "mccricardo"
+        },
+        {
+            "info": "Make quotes consistent in Gemfile (#983)",
+            "date": "2018-04-25 02:10:12",
+            "author": "Sebastian Zaremba",
+            "username": "vassyz"
+        },
+        {
+            "info": "Fix the bug that the any?, none?, one?, and many? methods are not executed on the shard\n\nThese methods are overridden by ActiveRecord::Relation so that they are\nredirected to Enumerable if a block is given.\nWe should populate associated records from the specified shard before\nthese methods are called.",
+            "date": "2018-04-19 09:08:15",
+            "author": "Tomoki Sekiyama",
+            "username": "sekiyama58"
+        },
+        {
+            "info": "Use __send__ method in ScopeProxy to avoid :send is passed to RelationProxy::method_missing\n\nThis makes enum method chain like `User.using(:brazil).all.each_with_index.to_a`\nrun on the shard as expected.",
+            "date": "2018-04-19 09:08:15",
+            "author": "Tomoki Sekiyama",
+            "username": "sekiyama58"
+        },
+        {
+            "info": "Fix the bug that the select method with a block is not executed on the shard",
+            "date": "2018-04-19 09:08:15",
+            "author": "Tomoki Sekiyama",
+            "username": "sekiyama58"
+        },
+        {
+            "info": "Fix the bug that the find method with a block is not executed on the shard",
+            "date": "2018-04-19 09:08:15",
+            "author": "Tomoki Sekiyama",
+            "username": "sekiyama58"
+        },
+        {
+            "info": "Fix the bug that sum & index_by methods are not executed on the shard",
+            "date": "2018-04-19 09:08:15",
+            "author": "Tomoki Sekiyama",
+            "username": "sekiyama58"
+        },
+        {
+            "info": "Fix the fact that self.config on Octopus::ProxyConfig was not as expected",
+            "date": "2018-04-17 10:15:13",
+            "author": "Erik Rothoff Andersson",
+            "username": "erkie"
+        },
+        {
+            "info": "Fix for new Rails 5.2 forking behavior: Reinitialize all shards after connections have been cleared",
+            "date": "2018-04-17 09:58:33",
+            "author": "Erik Rothoff Andersson",
+            "username": "erkie"
+        },
+        {
+            "info": "Implement support for Rails 5.2",
+            "date": "2018-04-16 16:00:40",
+            "author": "Erik Rothoff Andersson",
+            "username": "erkie"
+        },
+        {
+            "info": "Fix association shard tracking combined with enum method chain\n\nCurrently, when Enumerable methods that takes block are called for\nrelations taken from a shard, ActiveRecord::Relation object is\npopulated out of the shard, so the records from the master are used.\n\ne.g.:\n\n    User.using(:brazil).first.projects.where(id: ids).map(&:name)\n\nwill execute the query for `projects` on the `:master` shard,\ninstead of `:brazil`.\n\nThis patch lists up the Enumerable methods that are not redefined\nby ActiveRecord classes, and redirect them to objects taken from\nthe correct shards.",
+            "date": "2018-04-04 03:43:19",
+            "author": "Tomoki Sekiyama",
+            "username": "sekiyama58"
+        },
+        {
+            "info": "Version 1.0.1",
+            "date": "2018-03-21 17:15:04",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Merge pull request #16 from veilleperso/master\n\nFix account_info endpoint",
+            "date": "2018-03-21 17:14:16",
+            "author": "Charles",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add notice about 1.0.",
+            "date": "2018-03-19 04:28:49",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Version 1.0",
+            "date": "2018-03-19 04:25:03",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Update various things.",
+            "date": "2018-03-19 00:53:04",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Change expected options in REST options from camelCase to snake_case.",
+            "date": "2018-03-19 00:28:04",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Update method call.",
+            "date": "2018-03-18 20:39:10",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add new #withdraw_fee endpoint.",
+            "date": "2018-03-18 20:17:29",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Factor nav-padding into search input width (#967)\n\nHardcoded value of 30px no longer works when navigation padding is changed. This is now calculated dynamically.",
+            "date": "2018-03-01 16:33:14",
+            "author": "Jerome Dahdah",
+            "username": "jdahdah"
+        },
+        {
+            "info": "Remove outdated Fidor Bank example (#963)",
+            "date": "2018-02-27 15:47:55",
+            "author": "Jerome Dahdah",
+            "username": "jdahdah"
+        },
+        {
+            "info": "Remove IBM from \"Companies Using Slate\" (#964)",
+            "date": "2018-02-27 15:47:22",
+            "author": "al-tr",
+            "username": "al-tr"
+        },
+        {
+            "info": "Merge pull request #475 from zacharyw/bugfix/write-to-slave\n\nFix trying to write to slaves. Fix shard mismatch when reading from slave.",
+            "date": "2018-02-18 20:32:05",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Octopus 0.9.2",
+            "date": "2018-02-18 20:15:10",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Trying to fix the build",
+            "date": "2018-02-18 20:04:59",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #462 from cte/fix_scope_proxy_mutability\n\nDon't alter underlying AR relations when chaining",
+            "date": "2018-02-18 19:55:55",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Refactor using metaprogramming.",
+            "date": "2018-02-16 05:53:54",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Merge pull request #13 from onejc/system-status-patch",
+            "date": "2018-02-14 09:50:19",
+            "author": "Charles",
+            "username": "craysiii"
+        },
+        {
+            "info": "remove comma from last item in hash",
+            "date": "2018-02-14 09:37:20",
+            "author": "Jamie Carr",
+            "username": "jamieecarr"
+        },
+        {
+            "info": "tidy whitespace",
+            "date": "2018-02-14 09:36:38",
+            "author": "Jamie Carr",
+            "username": "jamieecarr"
+        },
+        {
+            "info": "add system status request",
+            "date": "2018-02-11 13:06:52",
+            "author": "Jamie Carr",
+            "username": "jamieecarr"
+        },
+        {
+            "info": "add systemStatus endpoint",
+            "date": "2018-02-11 13:04:41",
+            "author": "Jamie Carr",
+            "username": "jamieecarr"
+        },
+        {
+            "info": "add public adapter for public withdraw endpoints",
+            "date": "2018-02-11 13:02:22",
+            "author": "Jamie Carr",
+            "username": "jamieecarr"
+        },
+        {
+            "info": "Merge pull request #12 from kke/patch-3",
+            "date": "2018-02-10 17:19:26",
+            "author": "Charles",
+            "username": "craysiii"
+        },
+        {
+            "info": "Copy & paste fail in query order method doc\n\nQuery order param description said \"which order to cancel\"",
+            "date": "2018-02-10 12:03:57",
+            "author": "Kimmo Lehto",
+            "username": "kke"
+        },
+        {
+            "info": "Version 0.4.3",
+            "date": "2018-02-09 18:05:41",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Fix **option into option = {} to maintain consistency.",
+            "date": "2018-02-09 18:04:57",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Merge pull request #11 from kke/patch-2\n\nAllow rest.open_orders without params",
+            "date": "2018-02-09 17:59:52",
+            "author": "Charles",
+            "username": "craysiii"
+        },
+        {
+            "info": "Merge pull request #10 from kke/patch-1\n\nFix API URL",
+            "date": "2018-02-09 17:17:15",
+            "author": "Charles",
+            "username": "craysiii"
+        },
+        {
+            "info": "Allow rest.open_orders without params\n\nCurrently it has to be called with `rest.open_orders({})` or you will get `ArgumentError: wrong number of arguments (given 0, expected 1)`",
+            "date": "2018-02-09 14:07:14",
+            "author": "Kimmo Lehto",
+            "username": "kke"
+        },
+        {
+            "info": "Fix API url\n\nAs noted in https://github.com/binance-exchange/binance-official-api-docs/blob/master/rest-api.md :\r\n\r\n> The base endpoint is: https://api.binance.com",
+            "date": "2018-02-09 10:33:41",
+            "author": "Kimmo Lehto",
+            "username": "kke"
+        },
+        {
+            "info": "Fixes #909, reverts \"don't pushState\", using replaceState instead (#949)\n\nPartially reverts 95f924fd0d82c2a43db64edd22f41d7ba870261c.",
+            "date": "2018-02-08 20:22:41",
+            "author": "Andrey Fedorov",
+            "username": "anfedorov"
+        },
+        {
+            "info": "Rename OS X to macOS in deploy.sh comment (#951)",
+            "date": "2018-02-05 18:51:09",
+            "author": "Andrey Fedorov",
+            "username": "anfedorov"
+        },
+        {
+            "info": "Rename OS X as macOS (#950)",
+            "date": "2018-02-05 18:50:41",
+            "author": "Andrey Fedorov",
+            "username": "anfedorov"
+        },
+        {
+            "info": "Cleans HTML before setting document.title (#946)\n\nFixes https://github.com/lord/slate/issues/945",
+            "date": "2018-01-28 21:21:01",
+            "author": "Dan Levy",
+            "username": "justsml"
+        },
+        {
+            "info": "Make small changes to README.",
+            "date": "2018-01-28 19:25:36",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Version 0.4.2",
+            "date": "2018-01-28 00:21:04",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Loosen runtime dependency requirements to include minor upgrades.",
+            "date": "2018-01-28 00:20:31",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Change REST#request endpoint argument from String to Symbol.",
+            "date": "2018-01-28 00:17:07",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Merge User Data REST endpoints into AccountAPI.",
+            "date": "2018-01-27 23:40:33",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Give more meaningful and detached names to REST Faraday client methods.",
+            "date": "2018-01-27 19:09:59",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Refactor REST client code.\n* Decouple Faraday clients from API \"libraries\".\n* Move Faraday client initialization into REST.\n* Prevent api_key and secret_key from being accessible.\n* Simplify everything and get rid of ugly / bad coding choices.",
+            "date": "2018-01-27 18:15:11",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Modify internal Class names to CamelCase in accordance with rubocop.",
+            "date": "2018-01-27 17:10:41",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Version 0.4.1",
+            "date": "2018-01-21 05:06:21",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Fix comment that didn't list fromId option as optional.",
+            "date": "2018-01-21 04:48:09",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Hotfix for Historical Trades endpoint not having API key header.",
+            "date": "2018-01-21 04:39:40",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Increase memory of Vagrant, fixes #601 hopefully",
+            "date": "2018-01-20 19:08:14",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Fix broken list, replaces #918",
+            "date": "2018-01-20 18:41:03",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Upgrade to latest jQuery (3.2.1) (#939)",
+            "date": "2018-01-20 18:37:44",
+            "author": "Tomi Takussaari",
+            "username": "TomiTakussaari"
+        },
+        {
+            "info": "Allow strikethrough with two tildes in markdown, fixes #929",
+            "date": "2018-01-19 20:13:11",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Add changelog for 2.2",
+            "date": "2018-01-19 19:57:35",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Add notes about spectrum",
+            "date": "2018-01-19 19:52:04",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Version 0.4.0",
+            "date": "2018-01-07 16:43:14",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add User Data Stream REST endpoints and WebSocket stream.",
+            "date": "2018-01-07 16:42:41",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Version 0.3.1",
+            "date": "2017-12-29 01:20:37",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Fix (hopefully) TomDoc issues for documentation.",
+            "date": "2017-12-29 01:20:04",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Version 0.3.0",
+            "date": "2017-12-29 00:41:44",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add comments to Account API.",
+            "date": "2017-12-29 00:38:24",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add comments to Public API.",
+            "date": "2017-12-28 22:16:24",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add comment to account_status.",
+            "date": "2017-12-28 21:54:29",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add missing accountStatus endpoint.",
+            "date": "2017-12-28 21:33:55",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add comments to Withdraw API.",
+            "date": "2017-12-28 21:31:44",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add comments to REST API.",
+            "date": "2017-12-28 20:39:09",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Make private methods private.",
+            "date": "2017-12-28 06:07:50",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add comments to WebSocket API.",
+            "date": "2017-12-27 23:13:35",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Update README to include instructions for WebSocket.",
+            "date": "2017-12-27 21:01:25",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Basic WebSocket functionality implemented.",
+            "date": "2017-12-27 21:00:47",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add Faraday adapter option to Client::REST initializer.",
+            "date": "2017-12-17 18:56:18",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Update REST Client API URL.",
+            "date": "2017-12-13 07:34:42",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add gem version badge.",
+            "date": "2017-12-13 07:30:58",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Version 0.2.0",
+            "date": "2017-12-13 04:00:56",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Refactor how we resolve API endpoints to accommodate Binance's ever-changing API. Add new API endpoints and ensure the gem's API backwards compatibility.",
+            "date": "2017-12-13 04:00:20",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Merge pull request #1 from fab/master\n\nAdd 'Test new order' endpoint",
+            "date": "2017-12-13 02:12:40",
+            "author": "Charles",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add 'Test new order' endpoint",
+            "date": "2017-12-13 02:06:49",
+            "author": "Fab Mackojc",
+            "username": "fab"
+        },
+        {
+            "info": "Update README.md (#919)\n\nFixed typo",
+            "date": "2017-12-04 15:57:10",
+            "author": "Emir Ribi\u0107",
+            "username": "ribice"
+        },
+        {
+            "info": "Create .gitignore file.",
+            "date": "2017-12-03 20:07:57",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Refactor Faraday usage to avoid repetition.",
+            "date": "2017-11-30 09:05:54",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "remove unneccessary offensive language :hug: (#910)",
+            "date": "2017-11-29 00:26:02",
+            "author": "Gregor Martynus",
+            "username": "gr2m"
+        },
+        {
+            "info": "Modify version number to adhere to semantic versioning.",
+            "date": "2017-11-28 14:40:04",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Add link to REST API documentation.",
+            "date": "2017-11-27 07:22:37",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Initial project commit. Basic low-level functionality implemented.",
+            "date": "2017-11-27 06:40:57",
+            "author": "Charles Ray Shisler III",
+            "username": "craysiii"
+        },
+        {
+            "info": "Fix bug where wrapping the logo in an <a> tag would brake it",
+            "date": "2017-11-23 21:09:21",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Fix #837 Chinese, Russian headers, thx finalnova",
+            "date": "2017-11-23 18:40:00",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Parameterize ToC titles, remove html tags from slug (thx seweil), fixes #904",
+            "date": "2017-11-23 18:23:52",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "fixed Markdown code formatting using backticks inside HTML code block in _errors.md (#905)",
+            "date": "2017-11-23 17:53:50",
+            "author": "Martius",
+            "username": "martiuslim"
+        },
+        {
+            "info": "Add optional NestingUniqueHeadCounter header ID generator\n\n\r\n\r\n* Move nesting generator to separate class\r\n\r\n* Major bug fix, code simplification\r\n\r\n* Get rid of global value, use class variable instead.",
+            "date": "2017-11-09 15:14:43",
+            "author": "Vladimir Morozov",
+            "username": "greenhost87"
+        },
+        {
+            "info": "Remove stray debugging",
+            "date": "2017-11-07 21:15:54",
+            "author": "Chris Estreich",
+            "username": "cte"
+        },
+        {
+            "info": "Don't alter underlying AR relations when chaining",
+            "date": "2017-11-07 05:49:21",
+            "author": "Chris Estreich",
+            "username": "cte"
+        },
+        {
+            "info": "Fixing issue described in GH #407",
+            "date": "2017-11-05 19:06:44",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fixing issue described in GH #201",
+            "date": "2017-11-04 18:30:34",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #439 from yn-academia/master\n\nCheck for strings and symbols in allowed_shards",
+            "date": "2017-11-04 18:22:02",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Adding test for old GH issue",
+            "date": "2017-11-04 18:07:36",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Adding test for #select method inside a block",
+            "date": "2017-11-04 17:49:34",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fixing bug on AssociationShardTracking - using to_s to compare string / symbols",
+            "date": "2017-11-04 17:38:25",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #461 from thiagopradi/fixing_replication_bug_new\n\n[WIP] Fixing Replication Bug",
+            "date": "2017-11-04 17:23:27",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #458 from adomokos/ad-use-env-variable-for-mysql-user\n\nUse the MYSQL_USER environment variable in all the specs",
+            "date": "2017-11-04 00:31:16",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fixing bug on #clean_connection_proxy method",
+            "date": "2017-11-02 20:59:26",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "More fixes to the init_with method",
+            "date": "2017-11-02 20:26:50",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Bring back #set_current_shard / fixing bugs on init_with method",
+            "date": "2017-11-02 20:14:59",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fixing more bugs",
+            "date": "2017-11-02 19:08:45",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Use the MYSQL_USER environment variable in all the specs\n\nI tried to use a MySQL user (with no password :-() for the Octopus\nspecs, however, I need to make these adjustments to get a green build.",
+            "date": "2017-10-31 20:33:55",
+            "author": "Attila Domokos",
+            "username": "adomokos"
+        },
+        {
+            "info": "Refactor patch to make the replication works",
+            "date": "2017-10-31 02:34:17",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #453 from swordfish444/master\n\nRails 5.1 fix -- has_and_belongs_to_many",
+            "date": "2017-10-31 02:08:14",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Update nav-text to update toc text too, fixes #885",
+            "date": "2017-10-30 05:30:04",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Add editorconfig (#891)",
+            "date": "2017-10-30 05:11:55",
+            "author": "Jay Thomas",
+            "username": "jaythomas"
+        },
+        {
+            "info": "Add 2.1.0 changelog notes",
+            "date": "2017-10-30 05:06:37",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Fix data-title attribute for H2 elements in TOC (#884)\n\nI believe the data-title attribute for H2 elements was mistakenly using the parent H1 content as its value, rather than its own content.",
+            "date": "2017-09-30 21:39:15",
+            "author": "Ben",
+            "username": "benwilhelm"
+        },
+        {
+            "info": "Revert",
+            "date": "2017-09-16 22:29:28",
+            "author": "Skylar Graika",
+            "username": "swordfish444"
+        },
+        {
+            "info": "Ensures spec test whether options are preserved during has_and_belongs_to_many associations",
+            "date": "2017-09-16 22:22:12",
+            "author": "Skylar Graika",
+            "username": "swordfish444"
+        },
+        {
+            "info": "Fixing spec failure",
+            "date": "2017-09-16 22:13:21",
+            "author": "Skylar Graika",
+            "username": "swordfish444"
+        },
+        {
+            "info": "Adding rails 5.1+ conditional method and default method definitions",
+            "date": "2017-09-16 21:40:41",
+            "author": "Skylar Graika",
+            "username": "swordfish444"
+        },
+        {
+            "info": "Rails 5.1 fix options argument in has_and_belongs_to_many",
+            "date": "2017-09-16 19:49:19",
+            "author": "Skylar Graika",
+            "username": "swordfish444"
+        },
+        {
+            "info": "Comment out rtl direction by default",
+            "date": "2017-09-16 19:43:57",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Slate RTL (#842)",
+            "date": "2017-09-16 19:43:17",
+            "author": "Mohammad Hossein Rabiee",
+            "username": "mhrabiee"
+        },
+        {
+            "info": "Do not push history state. The browser already handles back properly (#878)",
+            "date": "2017-09-14 04:17:16",
+            "author": "Zach Toolson",
+            "username": "ztoolson"
+        },
+        {
+            "info": "source: update index.html.md s/tripit/lord/g",
+            "date": "2017-09-06 18:59:08",
+            "author": "Fouad Matin",
+            "username": "fouad"
+        },
+        {
+            "info": "Update screen.css.scss\n\nAdd possibility to have the \u00b4code\u00b4 tag inside the content tables",
+            "date": "2017-08-09 21:00:55",
+            "author": "Nicolas Bonduel",
+            "username": "NicolasBonduel"
+        },
+        {
+            "info": "Add border width to negative margin to prevent jumps",
+            "date": "2017-07-27 15:19:11",
+            "author": "Marian Friedmann",
+            "username": "rnarian"
+        },
+        {
+            "info": "Correct capitalization of PayPal and GitHub",
+            "date": "2017-07-22 18:30:23",
+            "author": "Christian Oliff",
+            "username": "coliff"
+        },
+        {
+            "info": "Update_lang.js\n\non line 101 missing a semicolon",
+            "date": "2017-07-20 18:01:19",
+            "author": "Diego",
+            "username": "diegorm221"
+        },
+        {
+            "info": "Document `--source-only` and add `--push-only`\n\nThe `--source-only` already works to only build and not deploy. But\nsometimes we want to just push and not build. An example of that is\nwhen you want to use Docker to build the project, avoiding the\ninstallation of the whole Ruby environment in your computer.\n\nThis commit adds `--push-only` to add the ability to execute only the\nactions related to `git` and avoid the project build.\n\nNo API was broken by this commit, it's a minor change.",
+            "date": "2017-07-20 18:00:30",
+            "author": "PotHix",
+            "username": "PotHix"
+        },
+        {
+            "info": "Horrible patch to fix replication error",
+            "date": "2017-07-18 03:38:36",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Update_errors.md (#815)\n\nAdding some punctuation marks.",
+            "date": "2017-07-18 03:31:24",
+            "author": "Alejandro Aguirre",
+            "username": "Alejandro222"
+        },
+        {
+            "info": "Adding test to reproduce the error described in the GH Issue #377",
+            "date": "2017-07-18 02:38:16",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Create CODE_OF_CONDUCT.md",
+            "date": "2017-07-17 18:44:09",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Add a few more release notes",
+            "date": "2017-07-17 18:27:53",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Add 2.0.0 release notes",
+            "date": "2017-07-17 18:25:52",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Merge branch 'master' into dev",
+            "date": "2017-07-17 18:17:09",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Add note about language tabs as comment in default yaml frontmatter",
+            "date": "2017-07-17 18:08:57",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Octopus 0.9.1",
+            "date": "2017-07-16 19:07:54",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fix bug with initial load of ToC always jumping to top",
+            "date": "2017-07-07 06:32:43",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Update Vagrant to Ruby 2.4 (#803)\n\nfixes #802",
+            "date": "2017-06-29 21:55:44",
+            "author": "Steve Brandwood",
+            "username": "sbrandwoo"
+        },
+        {
+            "info": "Add configurable keypress delay before initiating search (#764)",
+            "date": "2017-06-19 06:15:59",
+            "author": "eliat123",
+            "username": "eliat123"
+        },
+        {
+            "info": "Remove old ruby from travis",
+            "date": "2017-06-15 20:20:55",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Fix bug where head count always got larger across reloads",
+            "date": "2017-06-15 20:05:03",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Solve improperly nested header problem, fixes #711",
+            "date": "2017-06-15 19:52:42",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Update sponsor explanation text in readme",
+            "date": "2017-06-15 19:34:34",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Require Ruby 2.3.1",
+            "date": "2017-06-15 19:24:17",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Update issue template again",
+            "date": "2017-06-15 19:10:43",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Update PR template",
+            "date": "2017-06-15 19:08:41",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Add new issue template",
+            "date": "2017-06-15 19:03:35",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Update README.md (#787)\n\nLooks like mozilla has moved to something else.",
+            "date": "2017-06-15 18:09:30",
+            "author": "Joshua Woodward",
+            "username": "joshuawoodward"
+        },
+        {
+            "info": "Check for strings and symbols in allowed_shards\n\nFix https://github.com/thiagopradi/octopus/issues/436",
+            "date": "2017-06-12 21:31:27",
+            "author": "Yuri Niyazov",
+            "username": "yn-academia"
+        },
+        {
+            "info": "Merge branch 'st0012-fix-batch-regression'",
+            "date": "2017-06-05 03:11:58",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge branch 'fix-batch-regression' of https://github.com/st0012/octopus into st0012-fix-batch-regression",
+            "date": "2017-06-05 03:11:46",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Trying to fix the build again",
+            "date": "2017-06-05 02:53:44",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Trying to fix the travis build",
+            "date": "2017-06-05 02:31:58",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Updating Gemfiles",
+            "date": "2017-06-05 02:29:01",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #424 from takkanm/use_latest_ruby_in_ci\n\nuse latest ruby in ci",
+            "date": "2017-06-05 00:45:21",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #433 from biow0lf/remove-ruby-version-file\n\nRemove .ruby-version file and add them to .gitignore",
+            "date": "2017-06-05 00:44:50",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #434 from biow0lf/rails-5-1-release\n\nUpdate to release rails 5.1",
+            "date": "2017-06-05 00:40:35",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #437 from adomokos/ad-fix-typo-in-spec-description2\n\nFix the typo in the spec descriptions",
+            "date": "2017-06-04 21:53:19",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fix the typo in the spec descriptions",
+            "date": "2017-06-02 21:58:47",
+            "author": "Attila Domokos",
+            "username": "adomokos"
+        },
+        {
+            "info": "Update to release rails 5.1",
+            "date": "2017-05-24 09:27:08",
+            "author": "Igor Zubkov",
+            "username": "biow0lf"
+        },
+        {
+            "info": "Remove .ruby-version file\nAdd .ruby-version to .gitignore",
+            "date": "2017-05-24 08:32:41",
+            "author": "Igor Zubkov",
+            "username": "biow0lf"
+        },
+        {
+            "info": "Vagrant file fix for ubuntu/trusty64 (#769)\n\n* Fix screenshot link in readme\r\n\r\n* Vagrant file fix for ubuntu/trusty64",
+            "date": "2017-05-14 18:25:36",
+            "author": "Ihor Omelchenko",
+            "username": "MEGApixel23"
+        },
+        {
+            "info": "use latest ruby in ci",
+            "date": "2017-04-14 08:05:42",
+            "author": "takkanm",
+            "username": "takkanm"
+        },
+        {
+            "info": "Merge pull request #422 from thiagopradi/removing_method_missing\n\nRemoving method missing",
+            "date": "2017-04-11 03:23:35",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Delete needs to use legacy method missing logic to run",
+            "date": "2017-04-11 03:04:21",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Deprecating method_missing? on Octopus::Proxy",
+            "date": "2017-04-11 02:35:58",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Delegating final methods that need to clean the connection proxy",
+            "date": "2017-04-09 19:32:11",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Delegating more methods",
+            "date": "2017-04-09 19:02:20",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Using delegate for a bunch of methods instead of method_missing?",
+            "date": "2017-04-09 18:42:47",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Moving method to ProxyConfig",
+            "date": "2017-04-09 18:04:44",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Send non-public method call to ar_relation only when method name is 'load_records'",
+            "date": "2017-04-08 06:19:56",
+            "author": "Stan Lo",
+            "username": "st0012"
+        },
+        {
+            "info": "Fix issue by change #puclic_send to #send for allowing access to protected methods.",
+            "date": "2017-04-08 06:19:56",
+            "author": "Stan Lo",
+            "username": "st0012"
+        },
+        {
+            "info": "Use higher ruby version for Rails5 and reproduced the issue in test.",
+            "date": "2017-04-08 06:19:56",
+            "author": "Stan Lo",
+            "username": "st0012"
+        },
+        {
+            "info": "Reducing the use of instance variables - use gettter and setters instead",
+            "date": "2017-04-02 22:00:37",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Removing adapters variable",
+            "date": "2017-04-02 19:21:43",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Extracting Proxy config into a separate object for a better readability of the code",
+            "date": "2017-04-02 19:15:43",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "No need to clean table name anymore on each Octopus#using call",
+            "date": "2017-04-02 17:30:17",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fix nav subitem bg",
+            "date": "2017-03-31 19:56:09",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Switch default fonts to system fonts, very slightly blueify default colors",
+            "date": "2017-03-31 19:50:37",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Fix screenshot link in readme",
+            "date": "2017-03-29 03:25:47",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Adding spec for find_in_batches",
+            "date": "2017-03-26 19:33:37",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Adding spec for find_each",
+            "date": "2017-03-26 19:28:35",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #416 from jamescgibson/patch-1\n\nRaise helpful error if no slaves are available",
+            "date": "2017-03-26 13:46:08",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Removing old code from Octopus::Proxy",
+            "date": "2017-03-22 01:17:02",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Bump links in readme",
+            "date": "2017-03-20 18:28:26",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Raise helpful error if no slaves are available\n\nCurrently, if you run an Octopus-enabled application with a shards.yml that is misconfigured to define zero slaves in the appropriate slave group, you get this error:\n\n```\n<path_to_gems>/ar-octopus-0.9.0/lib/octopus/load_balancing/round_robin.rb:15:in `%': divided by 0 (ZeroDivisionError)\n        from /home/ubuntu/quottly-ng/.bundle/ruby/2.3.0/gems/ar-octopus-0.9.0/lib/octopus/load_balancing/round_robin.rb:15:in `next'\n        from /home/ubuntu/quottly-ng/.bundle/ruby/2.3.0/gems/ar-octopus-0.9.0/lib/octopus/proxy.rb:441:in `send_queries_to_selected_slave'\n```\nThis isn't particularly hard to track down, but it could be more helpful.",
+            "date": "2017-03-20 06:07:57",
+            "author": "James Gibson",
+            "username": "jamescgibson"
+        },
+        {
+            "info": "Ops, updating readme",
+            "date": "2017-03-17 02:16:57",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Removing last current shard reference from helper",
+            "date": "2017-03-17 02:15:27",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #415 from thiagopradi/rails_51\n\nRails 5.1 beta support",
+            "date": "2017-03-17 02:13:43",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Making migrations compatible with Rails 4 and 5",
+            "date": "2017-03-17 02:00:54",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fixing Replicated Query Couting on Rails 5.1",
+            "date": "2017-03-15 03:51:15",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Adding Rails 5.1 to Travis",
+            "date": "2017-03-15 03:40:55",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "More fixes for Rails 5.1",
+            "date": "2017-03-15 03:39:40",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Specify migration versions on each migration file",
+            "date": "2017-03-15 03:31:37",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Passing AR objects to #exists? is not allowed on Rails 5.1 - use object ids instead",
+            "date": "2017-03-15 03:23:25",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Adding Rails 5.1 to Appraisals file",
+            "date": "2017-03-15 03:19:17",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #398 from morgoth/cleanup-rails-files\n\nRemove not used init Rails files.",
+            "date": "2017-03-15 03:09:49",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #400 from adomokos/ad-fix-typo-in-spec-description\n\nFix typo in spec description",
+            "date": "2017-03-15 03:07:29",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #401 from adomokos/ad-fix-rspec-raise-error-warnings\n\nFix RSpec 'raise_error' warnings",
+            "date": "2017-03-15 03:07:06",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Merge pull request #411 from gabeharms/master\n\nRemoving `last_current_shard` reference",
+            "date": "2017-03-15 03:03:19",
+            "author": "Thiago Pradi",
+            "username": "thiagopradi"
+        },
+        {
+            "info": "Fix bug with no-language code blocks erroring, fixes #716",
+            "date": "2017-03-06 21:24:22",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Add styling to parent links of current link",
+            "date": "2017-03-02 16:39:38",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Fix bug where clicking link in ToC wouldn't hide ToC on mobile",
+            "date": "2017-03-02 16:39:37",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Update gradients and colors for a more 2017 look",
+            "date": "2017-03-02 16:39:37",
+            "author": "Robert Lord",
+            "username": "lord"
+        },
+        {
+            "info": "Fixing an issue when no language is specified (#707)\n\nparts[0] can lead to a nil class exception. Using the ternary gives the same functionality without causing things to fail",
+            "date": "2017-02-28 18:35:58",
+            "author": "Matt Billock",
+            "username": "evilstickman"
+        }
+    ]
+}

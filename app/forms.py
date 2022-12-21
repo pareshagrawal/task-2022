@@ -1,4 +1,4 @@
 from django import forms
 
-class ValideGitUrl(forms.Form):
+class ValidGitUrl(forms.Form):
     url = forms.CharField(required=True)
