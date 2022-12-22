@@ -19,7 +19,7 @@ def validate(request):
         request.session['organization'] = urlparse(url).path[1:]
         if bool(re.match(regex,url)):
 
-            github = Github("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")
+            github = Github("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")
             organization = github.get_organization(request.session['organization'])
 
             # storing all repos name
@@ -71,15 +71,17 @@ def validate(request):
             starred_info = {}
 
             for i in df.user_names:
-                link = f"https://api.github.com/users/{i}/starred?per_page=100"
-                f = requests.get(link)
-                fjson = f.json()
-                l = len(fjson)
-                if l != 0:
-                    starred_repo = []
-                    for j in range(l):
-                        starred_repo.append(fjson[j]["full_name"])
-                    starred_info[i] = starred_repo                
+                page=(github.get_user(i).get_starred().totalCount//100)+1
+                starred_repo = []
+                for j in range(1,page+1):
+                    link = f"https://api.github.com/users/{i}/starred?per_page=100&page={j}"
+                    f = requests.get(link)
+                    fjson = f.json()
+                    l = len(fjson)
+                    if l != 0:
+                        for j in range(l):
+                            starred_repo.append(fjson[j]["full_name"])
+                starred_info[i] = starred_repo                
 
             # dumping the starred info into json format
 
