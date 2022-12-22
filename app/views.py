@@ -7,6 +7,7 @@ from github import Github
 from datetime import datetime
 import pandas as pd
 import requests
+from .utils import send_mail_to_user
 
 def root(request):
     return render(request,'root.html')
@@ -19,7 +20,7 @@ def validate(request):
         request.session['organization'] = urlparse(url).path[1:]
         if bool(re.match(regex,url)):
 
-            github = Github("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")
+            github = Github("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")
             organization = github.get_organization(request.session['organization'])
 
             # storing all repos name
@@ -47,6 +48,13 @@ def validate(request):
                         all_commits.append(commits)
             
             recent_commits = sorted(all_commits,key=lambda x: x['date'], reverse=True)[0:500]
+
+            # dumping the recent commits into json format
+
+            json_data = {}
+            json_data['recent_commits'] = recent_commits
+            with open("info.json", "w") as outfile:
+                json.dump(json_data, outfile, default=str, indent=4)
             
             # fetching the name of all contributors
 
@@ -61,9 +69,11 @@ def validate(request):
             df = pd.DataFrame(zip(authors,user_names),columns=["author_name","user_names"])            
             df1 = pd.DataFrame(df.value_counts().head(10),columns=["frequency"])
             
-            # converting the list into .csv file
+            # converting the list into .csv file as well as json format (for attachment purpose)
 
             df1.to_csv("top10_contributors.csv")
+
+            df1.to_json("top10_contributors.json")
             
             # for storing all starred repos of those 10 users
 
@@ -88,13 +98,6 @@ def validate(request):
             with open("starred.json","w") as outfile:
                 json.dump(starred_info, outfile, default=str, indent=4)
 
-            # dumping the recent commits into json format
-
-            json_data = {}
-            json_data['recent_commits'] = recent_commits
-            with open("info.json", "w") as outfile:
-                json.dump(json_data, outfile, default=str, indent=4)
-
             return render(request,'output.html')
 
         else:
@@ -102,52 +105,9 @@ def validate(request):
 
     return render(request,'index.html',{'form': form})
 
-'''
-from django.shortcuts import render,HttpResponse
-from app.forms import ValideGitUrl
-import re
-import json
-import requests
+def email(request):
+    flag = send_mail_to_user(['siddhisharma0820@gmail.com','er.pareshagrawal@gmail.com'],'Task done','Attached all files')
+    if flag:
+        return HttpResponse("Email Successfully sent")
+    return HttpResponse("Failure in sending Email")
 
-def validate(request):
-    form = ValideGitUrl()
-
-    if request.method == 'POST':
-        regex = r'^(http(s?):\/\/)?(www\.)?github\.com\/([A-Za-z0-9]{1,})+\/?$'
-        url = request.POST['url']
-
-        if bool(re.match(regex,url)):
-            url="https://api.github.com/users/CoinGecko/repos"
-            f=requests.get(url)
-            repo_name=[]
-            l=len(f.json())
-            #return HttpResponse(l)
-            for i in range(0,l):
-                l1=f.json()[i]["name"]
-                repo_name.append(l1)
-
-            count=0
-            commit_list=[]
-            for repo in repo_name:
-                url=f"https://api.github.com/repos/CoinGecko/{repo}"
-                for commit in repo:
-                    if count<500:
-                        f = requests.get(url)
-                        x=f.json()["commits_url"]
-                        commit_list.append(x)
-                        count+=1
-                    else:
-                        break
-
-            json_string = json.dumps(commit_list)
-            
-            with open("info.json", "w") as outfile:
-                json.dump(json_string, outfile)
-            
-            return HttpResponse("valid git url")
-        
-        else:
-            return HttpResponse("Invalid git url")
-
-    return render(request,'index.html',{'form': form})
-'''
