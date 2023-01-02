@@ -20,7 +20,7 @@ def validate(request):
         request.session['organization'] = urlparse(url).path[1:]
         if bool(re.match(regex,url)):
 
-            github = Github("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")
+            github = Github("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")
             organization = github.get_organization(request.session['organization'])
 
             # storing all repos name
@@ -106,8 +106,9 @@ def validate(request):
     return render(request,'index.html',{'form': form})
 
 def email(request):
-    flag = send_mail_to_user(['siddhisharma0820@gmail.com','er.pareshagrawal@gmail.com'],'Task done','Attached all files')
-    if flag:
-        return HttpResponse("Email Successfully sent")
-    return HttpResponse("Failure in sending Email")
-
+    if request.method == "POST":
+        flag = send_mail_to_user(request.POST['email'],'Task done','Attached all files')
+        if flag:
+            return HttpResponse("Email Successfully sent")
+        return HttpResponse("Failure in sending Email")
+    return render(request,'email.html')

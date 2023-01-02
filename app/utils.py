@@ -5,7 +5,7 @@ import json
 def send_mail_to_user(email_to,subject,message):
     try:
         email_from = settings.EMAIL_HOST_USER
-        email = EmailMessage(subject,message,email_from,email_to)
+        email = EmailMessage(subject,message,email_from,[email_to])
 
         attach_files = ['info.json','starred.json','top10_contributors.json']
         
